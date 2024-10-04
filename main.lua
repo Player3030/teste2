@@ -1,6 +1,6 @@
 -- Example.lua
 print("Carregando exemplo...")
-local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Player3030/teste2/main.lua"))()
+local Fluent = loadstring(game:HttpGet("https://raw.githubusercontent.com/Player3030/teste2/refs/heads/main/main.lua"))()
 if not Fluent then
     error("Falha ao carregar Fluent.")
 end
