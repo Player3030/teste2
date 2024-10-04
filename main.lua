@@ -5,7 +5,7 @@ if not Fluent then
     error("Falha ao carregar Fluent.")
 end
 
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Player3030/teste2/SaveManager.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/Player3030/teste2/refs/heads/main/Addons/SaveManager.lua"))()
 if not SaveManager then
     error("Falha ao carregar SaveManager.")
 end
